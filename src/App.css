@@ -30,8 +30,7 @@ button{
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
-    margin: 0 auto;
+    max-width: 72px;
     align-items: center;
 }
 
@@ -49,6 +48,12 @@ nav ul{
     height: calc(100vh - 72px);
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
 .hero h1{
     font-weight: 800;
     line-height: 102px;
@@ -58,6 +63,7 @@ nav ul{
 .hero p{
     font-weight: 600;
     color: var(--gray);
+    max-width: 400px;
     
 }
 
@@ -65,6 +71,9 @@ nav ul{
     display: flex;
     gap: 40px
 
+}
+.hero-btn button{
+    font-size: 24px;
 }
 
 .secound-btn {
@@ -76,4 +85,9 @@ nav ul{
 .shopping p{
     font-size: 14px;
     margin-botton: 8px
+}
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
 }
