@@ -1,8 +1,8 @@
 const Nav = () => {
     return (
-        <div>
+        <div className="container">
             <nav>
-                <div className="logo">
+                <div className="logo ">
                     <img src="../public/images/logo.png" alt="logo" />
                 </div>
                 <ul>
